@@ -1,0 +1,15 @@
+# Core
+numpy==1.26.3
+pillow==10.4.0
+tqdm>=4.64
+
+# PyTorch
+torch==2.2.2
+torchvision==0.17.2
+
+# Training / models
+segmentation-models-pytorch>=0.3.3
+
+# Utilities
+pyyaml>=6.0
+opencv-python>=4.7
