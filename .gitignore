@@ -30,6 +30,12 @@ logs/
 outputs/
 checkpoints/
 runs/
+results/**/predictions/*
+!results/**/predictions/example.png
+!results/**/predictions/example.jpg
+results/**/sanity_check_overlay/*
+!results/**/sanity_check_overlay/example.png
+!results/**/sanity_check_overlay/example.jpg
 
 # ===== Data =====
 data/
