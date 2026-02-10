@@ -16,8 +16,8 @@ from evaluation.evaluate import evaluate_dataset
 # -------------------------
 DATA_DIR = "data"
 NUM_CLASSES = 19 
-LR = 1e-4
-EPOCHS = 50
+LR = 1e-3
+EPOCHS = 30
 TARGET_SIZE = (512, 512) # (W, H)
 
 

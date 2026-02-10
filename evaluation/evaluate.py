@@ -9,7 +9,7 @@ import torch
 import torch.nn as nn
 from torch.utils.data import DataLoader
 from torchvision import transforms
-from torchvision import transforms, models
+from torchvision import transforms
 from torchvision.models.segmentation import deeplabv3_resnet50
 from evaluation.metrics import evaluate_segmentation
 from data_preparation.dataloader import SegmentationDataset
